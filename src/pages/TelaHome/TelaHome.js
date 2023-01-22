@@ -1,6 +1,7 @@
 import { Container, StyledButton } from "./styled"
 import sair from "../../assets/exit.png"
 import Transacoes from "../../components/Transacoes/Transacoes"
+
 export default function TelaHome() {
 
     return (
