@@ -2,6 +2,7 @@ import { Container } from "./styled"
 import StyledForm from "../../components/StyledForm"
 import StyledInput from "../../components/StyledInput"
 import StyledButton from "../../components/StyledButton"
+import { Link } from "react-router-dom"
 
 export default function TelaCadastro(){
 
@@ -24,7 +25,7 @@ export default function TelaCadastro(){
                 <StyledButton type="submit">Entrar</StyledButton>
             </StyledForm>
 
-            <a href="www">Primeira vez? Cadastre-se!</a>
+            <Link to="/cadastro">Primeira vez? Cadastre-se!</Link>
         </Container>
     )
 }

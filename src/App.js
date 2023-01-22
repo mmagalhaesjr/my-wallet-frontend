@@ -8,13 +8,16 @@ import TelaNovaSaida from "./pages/TelasNovaEntradaSaida/TelaNovaSaida"
 export default function App() {
 
     return (
-        <div className="App">
-            {/* <TelaCadastro /> */}
-            {/* <TelaLogin/> */}
-            <TelaHome/>
-            {/* <TelaNovaEntrada/> */}
-            {/* <TelaNovaSaida/> */}
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/"element ={<TelaLogin/> } />
+                <Route path="/cadastro"element ={<TelaCadastro />} />
+                <Route path="/home"element ={<TelaHome />} />
+                <Route path="/nova-entrada"element ={<TelaNovaEntrada/>} />
+                <Route path="/nova-saida"element ={<TelaNovaSaida/>} />
+            </Routes>
+        </BrowserRouter>
+
     )
 
 }
