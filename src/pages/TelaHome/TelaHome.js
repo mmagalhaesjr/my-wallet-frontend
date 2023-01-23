@@ -7,14 +7,14 @@ import TokenContext from "../../contexts/TokenContext"
 import axios from "axios"
 
 export default function TelaHome() {
-const [listaTransacoes, setListaTransacoes] = useState('')
+    const [listaTransacoes, setListaTransacoes] = useState([])
     const { token } = useContext(TokenContext )
     const config = {
         headers: {
             "Authorization": `Bearer ${token}`
         }
     }
-    
+    console.log(listaTransacoes)
     useEffect(() => listarTransacoes(), []) 
     
     function listarTransacoes(){
