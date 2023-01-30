@@ -8,12 +8,10 @@ import axios from "axios"
 import TokenContext from "../../contexts/TokenContext"
 
 export default function TelaLogin(){
-
     const navigate = useNavigate()
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const { setToken } = useContext(TokenContext)
-    
   
     function logarUsuario(e) {
       e.preventDefault()
