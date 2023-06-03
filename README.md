@@ -6,7 +6,7 @@ Um gerenciador financeiro super fácil de usar, onde o usuário pode acompanhar 
 
 <img src="src/assets/myWallet.png" />
 
-Experimente clicando [aqui](https://my-wallet-frontend-rose.vercel.app/)!
+Este projeto faz parte do meu portfólio pessoal e você pode experimentá-lo clicando [aqui](https://my-wallet-frontend-rose.vercel.app/)!
 
 ## Sobre
 
