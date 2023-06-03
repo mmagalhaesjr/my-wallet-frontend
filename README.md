@@ -41,7 +41,7 @@ npm install
 ```bash
 REACT_APP_API_URL=//localhost:5000
 ```
-6. Execute o fron-tend com o comando
+5. Execute o fron-tend com o comando
 ```bash
 npm start
 ```
