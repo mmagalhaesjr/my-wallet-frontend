@@ -1,25 +1,27 @@
 # My Wallet
 
-An easy to use financial manager. Track your revenues and expenses to learn how you spend your money and know all the time how much you have.
+###### [Read this page in English](README-en.md)
+
+Um gerenciador financeiro super fácil de usar, onde o usuário pode acompanhar suas receitas e despesas para saber como tem gastado seu dinheiro e qual seu saldoa atual.
 
 <img src="src/assets/myWallet.png" />
 
-Try it out now at https://link-to-my-project-deployed.herokuapp.com
+Experimente clicando [aqui](https://my-wallet-frontend-rose.vercel.app/)!
 
-## About
+## Sobre
 
-This is an web application with which lots of people can manage their own expenses and revenues. Below are the implemented features:
+Este é um aplicativo onde os usuários podem gerenciar suas próprias despesas e receitas. Abaixo estão as funcionalidades implementadas:
 
-- Sign Up
+- Cadastro
 - Login
-- List all financial events for a user
-- Add expense
-- Add revenue
+- Listagem de todas a transações financeiras do usuário
+- Adicionar nova receita
+- Adicionar nova despesa
 
-By using this app any user can learn how they've been using their money and always keep track of your balance.
+Com este aplicativo, o usuário pode analisar como tem utilizado seu dinheiro e acompanhar seu saldo.
 
-## Technologies
-The following tools and frameworks were used in the construction of the project:<br>
+## Tecnologias
+As seguintes ferramentas foram usados na construção do projeto:<br>
 <p>
   <img style='margin: 5px;' src='https://img.shields.io/badge/styled-components%20-%2320232a.svg?&style=for-the-badge&color=b8679e&logo=styled-components&logoColor=%3a3a3a'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/axios%20-%2320232a.svg?&style=for-the-badge&color=informational'>
@@ -27,20 +29,19 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src="https://img.shields.io/badge/react_route%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 </p>
 
-## How to run
+## Como executar
 
-1. Clone this repository
-2. Clone the back-end repository at https://github.com/mmagalhaesjr/my-wallet-backend
-3. Follow instructions to run back-end at https://github.com/mmagalhaesjr/my-wallet-backend
-4. Install dependencies
+1. Clone o repositório do backend em https://github.com/mmagalhaesjr/my-wallet-backend e siga as instruções para executá-lo
+2. Clone este repositório
+3. Instale as dependências
 ```bash
-npm i
+npm install
 ```
-5. Run the front-end with
+4. Crie um arquivo .env na raiz do projeto seguindo o exemplo do .env.example e defina a variável de ambiente REACT_APP_API_URL de acordo com a porta em que o backend está sendo executado em seu computador. Exemplo:
+```bash
+REACT_APP_API_URL=//localhost:5000
+```
+6. Execute o fron-tend com o comando
 ```bash
 npm start
-```
-6. You can optionally build the project running
-```bash
-npm run build
 ```
