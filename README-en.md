@@ -44,7 +44,3 @@ REACT_APP_API_URL=//localhost:5000
 ```bash
 npm start
 ```
-6. You can optionally build the project running
-```bash
-npm run build
-```
