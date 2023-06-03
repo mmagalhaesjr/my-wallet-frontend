@@ -9,16 +9,9 @@ import TokenContext from "./contexts/TokenContext"
 
 export default function App() {
     const [token, setToken] = useState('')
-<<<<<<< HEAD
-    const [user, setUser] = useState('')
-
-    return (
-        <TokenContext.Provider value={{ token, setToken, user, setUser }}>
-=======
 
     return (
         <TokenContext.Provider value={{ token, setToken }}>
->>>>>>> main
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<TelaLogin />} />
