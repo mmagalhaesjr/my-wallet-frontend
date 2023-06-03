@@ -11,8 +11,13 @@ export default function TelaLogin(){
     const navigate = useNavigate()
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+<<<<<<< HEAD
     const { setToken, setUser} = useContext(TokenContext)
 
+=======
+    const { setToken } = useContext(TokenContext)
+  
+>>>>>>> main
     function logarUsuario(e) {
       e.preventDefault()
   
@@ -23,7 +28,11 @@ export default function TelaLogin(){
   
       const url = `${process.env.REACT_APP_API_URL}/login`
       const promise = axios.post(url, body)
+<<<<<<< HEAD
       promise.then((res) => { setToken(res.data.token); setUser(res.data.usuario); navigate('/home')})
+=======
+      promise.then((res) => { setToken(res.data.token); navigate('/home')})
+>>>>>>> main
       promise.catch(err => {alert(err.response.data)})
 
     }

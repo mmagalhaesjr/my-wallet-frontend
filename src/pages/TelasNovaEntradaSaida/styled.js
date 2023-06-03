@@ -12,7 +12,10 @@ export const Container = styled.div`
     font-size: 26px;
     color: #FFFFFF;
     font-weight: 700;
+<<<<<<< HEAD
     margin-top: 180px;
+=======
+>>>>>>> main
   }
   h2{
     font-size: 17px;
